@@ -1,0 +1,50 @@
+<testdata>
+    <LoginTest>
+    	<TestData>
+    	<username>naomi.hurley@gmit.ie</username>
+    	<password>YourRealPassword</password>
+    	</TestData>
+		
+		<TestData>
+    	<username>naomi.regan@gmit.ie</username>
+    	<password>GMIT</password>
+    	</TestData>
+		
+		<TestData>
+    	<username>naomi.hurley@gmit.ie</username>
+    	<password>4thyearIT</password>
+    	</TestData>
+		
+		
+		
+    </LoginTest>
+
+	<CreateLeadTest>
+    	<TestData>
+    	<salutation>Mr.</salutation>
+    	<first_name>Tom</first_name>
+		<last_name>Hanks</last_name>
+		<company>Hollywood</company>
+		<status>Qualified</status>
+    	</TestData>
+
+		<TestData>
+    	<salutation>Mrs.</salutation>
+    	<first_name>Ele</first_name>
+		<last_name>Nash</last_name>
+		<company>Microsoft</company>
+		<status>Qualified</status>
+    	</TestData>
+
+    </CreateLeadTest>
+
+	<DeleteLeadTest>
+			<TestData>
+			<name>Tom Hanks</name>
+			</TestData>
+
+			<TestData>
+			<name>Ele Nash</name>
+			</TestData>
+	</DeleteLeadTest>
+</testdata> 
