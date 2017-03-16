@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://beam.pro/" />
+<title>TC2.5.0</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC2.5.0</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.body</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=input-11</td>
+	<td>beam123456</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=input-12</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=input-12</td>
+	<td>ryan@gordon.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=input-13</td>
+	<td>asd</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='submit'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.error</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.error</td>
+	<td>&quot;password&quot; must be at least 4 characters long.</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
