@@ -4,12 +4,12 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="https://beam.pro/" />
-<title>TC1.4</title>
+<title>TC1.1.0</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">TC1.4</td></tr>
+<tr><td rowspan="1" colspan="3">TC1.1.0</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
@@ -18,23 +18,13 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>css=button.hide-xs.hide-sm</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=a.menu-item &gt; div.bui-btn.bui-btn-flat &gt; span</td>
+	<td>//button[2]</td>
 	<td></td>
 </tr>
 <tr>
 	<td>waitForElementPresent</td>
-	<td>css=h1</td>
+	<td>css=bui-tab-label[value=&quot;Login&quot;]</td>
 	<td></td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>xpath=//html/body/main/div/article/div/div[1]/p[2]/span/strong</td>
-	<td>Rules of User Conduct</td>
 </tr>
 
 </tbody></table>
