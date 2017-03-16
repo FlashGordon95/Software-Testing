@@ -1,21 +1,17 @@
 <testdata>
     <LoginTest>
     	<TestData>
-    	<username>naomi.hurley@gmit.ie</username>
+    	<username>gtonra88@gmail.com</username>
     	<password>YourRealPassword</password>
     	</TestData>
-		
 		<TestData>
-    	<username>naomi.regan@gmit.ie</username>
-    	<password>GMIT</password>
+    	<username>gtonra88@gmail.com</username>
+    	<password>MERO190e</password>
     	</TestData>
-		
 		<TestData>
-    	<username>naomi.hurley@gmit.ie</username>
-    	<password>4thyearIT</password>
+    	<username>gtonra98@gmail.com</username>
+    	<password>MERO190e</password>
     	</TestData>
-		
-		
 		
     </LoginTest>
 
