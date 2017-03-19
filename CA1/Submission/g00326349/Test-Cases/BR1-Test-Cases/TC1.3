@@ -4,12 +4,12 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="https://beam.pro/" />
-<title>General Funcationality Test Cases</title>
+<title>TC1.3</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">General Funcationality Test Cases</td></tr>
+<tr><td rowspan="1" colspan="3">TC1.3</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
@@ -18,33 +18,23 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//div/button</td>
+	<td>css=span.hide-xs.hide-sm</td>
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
-	<td>css=bui-tab-label[value=&quot;SignUp&quot;]</td>
+	<td>waitForElementPresent</td>
+	<td>css=a &gt; div.bui-btn.bui-btn-raised &gt; span</td>
 	<td></td>
 </tr>
 <tr>
-	<td>type</td>
-	<td>id=input-7</td>
-	<td>LolerCopter</td>
+	<td>assertText</td>
+	<td>css=a &gt; div.bui-btn.bui-btn-raised &gt; span</td>
+	<td>Android</td>
 </tr>
 <tr>
-	<td>type</td>
-	<td>id=input-8</td>
-	<td>asdfg</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=input-9</td>
-	<td>asdfg</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>xpath=(//button[@type='submit'])[2]</td>
-	<td></td>
+	<td>assertText</td>
+	<td>//div/a[2]/div/span</td>
+	<td>iOS</td>
 </tr>
 
 </tbody></table>
